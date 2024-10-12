@@ -3,7 +3,7 @@ import { MonthPassIcon,YearIconPass } from "@/public/svg";
 export const cardValue = [
     {
       passType: "1 Month",
-      price: "1",
+      price: "20999",
       image: <YearIconPass/>,
       duration: "/1 Month",
       static: [
@@ -15,7 +15,7 @@ export const cardValue = [
     },
     {
       passType: "3 Month",
-      price: "1",
+      price: "30999",
       image: <YearIconPass/>,
       duration: "/3 Month",
       static: [
@@ -27,7 +27,7 @@ export const cardValue = [
     },
     {
       passType: "6 Month",
-      price: "1",
+      price: "50999",
       image: <MonthPassIcon />,
       duration: "/6 Month",
       static: [
@@ -40,7 +40,7 @@ export const cardValue = [
     },
     {
       passType: "1 Year",
-      price: "1",
+      price: "99999",
       image: <MonthPassIcon />,
       duration: "/1 Year",
       static: [
