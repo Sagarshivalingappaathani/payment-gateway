@@ -3,7 +3,7 @@ import { MonthPassIcon,YearIconPass } from "@/public/svg";
 export const cardValue = [
     {
       passType: "1 Month",
-      price: "10999",
+      price: "20999",
       image: <YearIconPass/>,
       duration: "/1 Month",
       static: [
@@ -15,7 +15,7 @@ export const cardValue = [
     },
     {
       passType: "3 Month",
-      price: "20999",
+      price: "30999",
       image: <YearIconPass/>,
       duration: "/3 Month",
       static: [
@@ -27,7 +27,7 @@ export const cardValue = [
     },
     {
       passType: "6 Month",
-      price: "30999",
+      price: "50999",
       image: <MonthPassIcon />,
       duration: "/6 Month",
       static: [
@@ -39,10 +39,10 @@ export const cardValue = [
       ],
     },
     {
-      passType: "Life Time",
+      passType: "1 Year",
       price: "99999",
       image: <MonthPassIcon />,
-      duration: "/Life Time",
+      duration: "/1 Year",
       static: [
         "Unlimited expert guidance for stock market-related doubts.",
         "Comprehensive monthly stock market analysis.",
